@@ -9,6 +9,7 @@ namespace EduExplore.Core.Contracts
         /// </summary>
         /// <returns></returns>
         Task<IEnumerable<InstitutionListViewModel>> GetAllSchools();
+
         /// <summary>
         /// Returns the number of all schools
         /// </summary>
@@ -21,6 +22,7 @@ namespace EduExplore.Core.Contracts
         /// <param name="inhabitedAreaId">Id of the inhabited area</param>
         /// <returns></returns>
         Task<IEnumerable<InstitutionListViewModel>> GetAllSchoolsByInhabitedArea(string inhabitedAreaId);
+
         /// <summary>
         /// Returns the number of schools in a given inhabited area
         /// </summary>
@@ -34,6 +36,7 @@ namespace EduExplore.Core.Contracts
         /// <param name="regionId">Id of the region</param>
         /// <returns></returns>
         Task<IEnumerable<InstitutionListViewModel>> GetAllSchoolsByRegion(string regionId);
+
         /// <summary>
         /// Returns the number of all schools in the given region
         /// </summary>
@@ -48,6 +51,7 @@ namespace EduExplore.Core.Contracts
         /// <param name="institutionTypeId">Id of the institution type</param>
         /// <returns></returns>
         Task<IEnumerable<InstitutionListViewModel>> GetAllSchoolsByInstitutionType(string institutionTypeId);
+
         /// <summary>
         /// Returns the number of all schools from the given institution type
         /// </summary>
@@ -62,6 +66,7 @@ namespace EduExplore.Core.Contracts
         /// <param name="detailedInstitutionTypeId">Id of the detailed institution type</param>
         /// <returns></returns>
         Task<IEnumerable<InstitutionListViewModel>> GetAllSchoolsByDetailedInstitutionType(string detailedInstitutionTypeId);
+
         /// <summary>
         /// Returns the number of all schools from the given detailed institution type
         /// </summary>
@@ -75,6 +80,7 @@ namespace EduExplore.Core.Contracts
         /// <param name="financialTypeId">Id of the financial type</param>
         /// <returns></returns>
         Task<IEnumerable<InstitutionListViewModel>> GetAllSchoolsByFinancialType(string financialTypeId);
+
         /// <summary>
         /// Returns the number of all schools from the given financial type
         /// </summary>
