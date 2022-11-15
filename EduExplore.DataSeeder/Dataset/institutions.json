@@ -1,0 +1,5522 @@
+[
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "Бръмбазък",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ \"Алиса\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ№115",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ТУЕС към ТУ-София",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ Усмивка",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Нови Искър",
+    "Region": "Нови Искър",
+    "Name": "ДГ№157",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧЦДГ \"Мила\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Банкя",
+    "Region": "Банкя",
+    "Name": "ПГТ \"Ал. Константинов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "88. СУ \"Д. Попниколов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "148 ОУ \"Проф. д-р Л. Милетич\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "18 СУ \"Уилям Гладстон\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ№152",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Чепинци",
+    "Region": "Нови Искър",
+    "Name": "ДГ № 132",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "104 ОУ \"Захари Стоянов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "59 ОбУ \"Васил Левски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "обединено",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ДГ № 118\"УСМИВКА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ДГ №168",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "ДГ № 34 \"Брезичка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Волуяк",
+    "Region": "Връбница",
+    "Name": "146 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Банкя",
+    "Region": "Банкя",
+    "Name": "ДГ №25 \"Изворче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ № 92 \"МЕЧТА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Кремиковци",
+    "Name": "159.ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "СПГЕ \"Джон Атанасов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "52. ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ №139 \"Панорама\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "Детска градина №81 \"Лилия\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ДГ № 62 \"ЗОРНИЦА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "31СУЧЕМ \"Иван Вазов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ КИТА 2013",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ДГ№ 160 \"Драгалевци\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Владая",
+    "Region": "Витоша",
+    "Name": "86 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ПГИИРЕ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "Детска градина № 53",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 31 \"ЛЮЛИН \"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "63 ОУ \"Христо Ботев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "20.ОУ \"Тодор Минков\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ПГО",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"Камелини Монтесори\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "Доверие",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "9 ФЕГ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ №103",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "127. СУ \"Иван Николаевич Денкоглу\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "Д Г № 74",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "121 СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ДГ №79 \"Слънчице\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "ДГ № 18",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Лозен",
+    "Region": "Панчарево",
+    "Name": "ДГ №97 \"Изгрев\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ №35",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 86 АСЕН БОСЕВ",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ №57",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ № 148",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "Частно СУ \" Артис\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ДГ№175",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ № 90",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ № 15 \"Чучулига\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ № 170 \"Пчелица\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "ДГ № 158 \"ЗОРА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "95 СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ БОБЧЕ ТОПЧЕ",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ № 171 \" Свобода\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Кремиковци",
+    "Name": "162 ОбУ \"Отец Паисий\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "обединено",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "ЧПГДН СофтУни Светлина",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ЧДГ \" Албертино01.09\"ЕООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ЧДГ\"Пресвета Богородица EOOД\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ №109 \"Зорница\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Бусманци",
+    "Region": "Искър",
+    "Name": "ДГ 21",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "ЧДГ МОМО ЕООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Нови Искър",
+    "Region": "Нови Искър",
+    "Name": "ДГ№135",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ №137",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧЦДГ \"Ян Бибиян\"-МЕГА-Х ООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ №189 \"Сто усмивки\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "125 СУ \"Боян Пенев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Нови Искър",
+    "Region": "Нови Искър",
+    "Name": "ДГ №102 \"Кременица\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "ЧПГ Дарби",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "81. СУ \"Виктор Юго\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧОУ \"Света София\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "55 СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "141 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "139 ОУ \"Захарий Круша\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "СУУУС \"Проф. д-р Дечо Денев\"",
+    "InstitutionType": "специално",
+    "DetailedInstitutionType": "за обучение и подкрепа на ученици с увреден слух",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "ЧОУ \" Св. Климент Охридски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ДГ № 48 \"Братя Грим\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "48 ОУ \"Й. Ковачев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"БОЯНА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Яна",
+    "Region": "Кремиковци",
+    "Name": "116 ОУ \"Паисий Хилендарски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧДГ Малки стъпки",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "ДГ №23 \"Здраве\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ №172 \" София\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ДГ № 43 \"ТАЛАНТ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ДГ № 166 \"Веселушка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧОУ \"Томас Едисън\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ЧЦДГ\" Мария Магдалена\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Нови Искър",
+    "Region": "Нови Искър",
+    "Name": "ДГ №121",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ДГ № 78 \"Детски свят\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ № 186",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ДГ № 161\" ЛАСКА \"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ №55 \"Иглика\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Бистрица",
+    "Region": "Панчарево",
+    "Name": "ДГ №143\"Щурче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ № 142",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ЧОУ \"Светлина\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "ПГТКИ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "НТБГ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ДДГ \"Слава\" към МО",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Казичене",
+    "Region": "Панчарево",
+    "Name": "ДГ -3",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "ПГХВТ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ № 75 \"Сърчице\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ЧЕСУ \"Дорис Тенеди\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Кремиковци",
+    "Name": "ДГ №146",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧСУ \"Константин-Кирил Философ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ №99",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "101. СУ \"БАЧО КИРО\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Бусманци",
+    "Region": "Искър",
+    "Name": "65 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "Детска градина № 106",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ №69\"Жар птица\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДДГ \"Младост\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ДГ № 46 \"Жива вода\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "23 СУ \"Фредерик Ж.-Кюри\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ДГ №7 \"Детелина\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "67 ОУ \"Васил Друмев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Долни Богров",
+    "Region": "Кремиковци",
+    "Name": "ДГ №140 Зорница",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Негован",
+    "Region": "Нови Искър",
+    "Name": "176 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "обединено",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ЧДГ 101Защо",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "62. ОУ \"Хр. Ботев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ДГ№193 \"Славейче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "79 СУ \"Индира Ганди\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "131. СУ \"К.А.Тимирязев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ДГ № 9 \"Пламъче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Кремиковци",
+    "Name": "ДГ №89",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ДГ № 33",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "113 СУ\"Сава Филаретов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 32 \"Българче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ Монтесори Къща на Децата",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "НПГПФ",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "по изкуствата",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "4 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ПГ по телекомуникации",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Банкя",
+    "Region": "Банкя",
+    "Name": "78. СУ \"Христо Смирненски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ДДГ \"Средец\" към МО",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ЧНУ МИЛЕА",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "начално",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ЧНУ \"Питагор\" ООД",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "начално",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "49-то ОУ \"Бенито Хуарес\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "ДГ № 113 \"Преспа\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "Детска градина № 1",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"Германи\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Кремиковци",
+    "Name": "ДГ № 58 \"Слънчево утро\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ Тути",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Банкя",
+    "Name": "ЧСУ \"Цар Симеон Велики\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "ДГ № 77 \"Магнолия\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "60 ОУ \"Св.св.Кирил и Методий\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Мърчаево",
+    "Region": "Витоша",
+    "Name": "ДГ 41\"Приятели\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ № 17 Мечо Пух",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Кремиковци",
+    "Name": "ДГ № 44 \"Калина\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ № 80",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ № 6 \" Вълшебен свят\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "103. ОУ \"ВАСИЛ ЛЕВСКИ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ДГ № 127 \"Слънце\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "93 СУ \"Ал. Теодоров - Балан\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Лозен",
+    "Region": "Панчарево",
+    "Name": "200 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Мърчаево",
+    "Region": "Витоша",
+    "Name": "152 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "61 ОУ\" Св. Св. Кирил и Методий",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "124 ОУ \"Васил Левски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧДГ Слънчево зайче",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ПГЕА",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ \"ЖИРАФЧЕ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Нови Искър",
+    "Region": "Нови Искър",
+    "Name": "170 СУ \"Васил Левски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ №56",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "102 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "39 СУ \"П.Динеков\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Казичене",
+    "Region": "Панчарево",
+    "Name": "СУ \"Св.Иван Рилски\"",
+    "InstitutionType": "училище към местата за лишаване от свобода",
+    "DetailedInstitutionType": "към местата за лишаване от свобода",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ДГ № 192 \"ЛОЗИЧКА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "ПГТЕ \"Хенри Форд\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ №136",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "75.ОУ\"Т.Каблешков \"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ДГ №72",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ПЧМГ ООД",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Мрамор",
+    "Region": "Връбница",
+    "Name": "ДГ №176",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "145 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "ДГ № 194 \"Милувка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "НПМГ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ДГ 60 \"Бор\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ДГ №10",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "24 СУ \"П. К. Яворов \"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Бухово",
+    "Region": "Кремиковци",
+    "Name": "ДГ № 94 \"Детски свят\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "СМГ \"Паисий Хилендарски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "33. ЕГ \"Света София\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ №26 \"Калина\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ № 70",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ЧСУ \"Орфей\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ДГ № 125 \"УСМИВКА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "Национално СУ \"София\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ЧДГ \"МОНТЕСОРИ ХАЙ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "Детска градина №76 \"Сърничка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ Кристофър Робин",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Герман",
+    "Region": "Панчарево",
+    "Name": "84. ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "СГХСТ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "НУТИ",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "по изкуствата",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Чепинци",
+    "Region": "Нови Искър",
+    "Name": "160 ОУ\"Кирил и Методий\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "Детска градина № 93 \" Чуден с",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "89 ОУ,,Д-р Христо Стамболски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"Щастливо детство\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ДГ № 61 \"Шарено петле\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "1 СУ \"Пенчо П. Славейков\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "45 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"Българанче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "134. СУ \"Д. Дебелянов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "Испанско училище",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "132. СУ \"Ваня Войнова\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "ДГ № 42",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "34 ОУ \"Стою Шишков\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "64 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "128 СУ \"Алберт Айнщайн\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ №20",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "27. СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "30. СУ \"Братя Миладинови\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ\"РАЙ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "72 ОУ \" Христо Ботев \"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "143. ОУ \" Г. Бенковски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "149 СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ- 197",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "СПГТ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "28 СУ \"А. Константинов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ№27\"Детска китка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ 124 Бърборино\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "70-о ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧСУ \"Евлоги и Христо Георгиеви",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "ДГ № 119 \"Детска планета\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Панчарево",
+    "Name": "83. ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "130. СУ \"Стефан Караджа\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "164 ГПИЕ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧОУ \"Д-р Петър Берон\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Мрамор",
+    "Region": "Връбница",
+    "Name": "175 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 68 \"Ран Босилек\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "„ЧДГ „НЕМО\"“ ООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "54. СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "5.Вечерно СУ\"П.Пенев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ДГ №12 \"Лилия\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "74 СУ \"Гоце Делчев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ЧСУ \"Проф. Николай Райнов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"ДЕТСКИ СВЯТ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "14. СУ \"Проф. д-р А. Златаров\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ДГ № 37 \"ВЪЛШЕБСТВО\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "107. ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "СУ за ученици с нарушено зрение",
+    "InstitutionType": "специално",
+    "DetailedInstitutionType": "за обучение и подкрепа на ученици с нарушено зрение",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ №8 \"Проф.д-р Елка Петрова\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "106 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ №71",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"СЛЪНЧЕВ АНГЕЛ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ЧДГ Светлина",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Световрачене",
+    "Region": "Нови Искър",
+    "Name": "ДГ № 114 \"Светулка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"Росица\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "НМУ",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "по изкуствата",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "Частна Детска Градина Патета",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Бухово",
+    "Region": "Кремиковци",
+    "Name": "117. СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧОУ \"Наука за деца\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "53. ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "96. СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ДГ №112 \"Детски свят\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "11 ОУ Св. Пимен Зографски",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ЧПГ \"БАНКЕР\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ЧОУ Банкерче",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "ПГАВТ \"А.С.ПОПОВ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "92 ОУ\"Димитър Талев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "Детска градина № 65",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "ДГ № 144\" Ханс Кристиан Андерс",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "90 СУ \"Ген. Хосе де Сан Мартин\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "IVСВГ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ДГ №16 \" ПРИКАЗЕН СВЯТ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 200",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ № 177 Лютиче",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "21 СУ \"ХРИСТО БОТЕВ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "Веселото Гардже",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧСУ \"УВЕКИНД\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ІІ АЕГ \"Томас Джеферсън\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "ДГ №13",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "ДГ № 120",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧНДГ Увекинд",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧДГ\"Аника\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 101 \"Ябълкова градина\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "135 СУ \"Ян Амос Коменски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ДГ № 63 \"Слънце\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \" ЕКОмалчовци \"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "Ч Д Г \"Симба\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ №67 \"Чучулига\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "112 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "43. ОУ \"Христо Смирненски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "ДГ № 88 ,,Детски рай\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "ДГ N5",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 47 \"Незабравка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "Първа АЕГ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "ПГ по ПСТТ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Панчарево",
+    "Name": "ЧОУ \"Изгрев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "22 СЕУ \"Г. С. Раковски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ЧОУ \"Прогресивно образование\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "ДГ 82",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧСУ \"П.Р.Славейков\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧНУ \"Светилник\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "начално",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "5 ОУ \"Ив. Вазов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Бистрица",
+    "Region": "Панчарево",
+    "Name": "192.СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ \"Г.С.Уланова\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧСЕУ \"Г.С.Уланова\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Панчарево",
+    "Region": "Панчарево",
+    "Name": "ЧДГ \"Слънчогледи\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "73. СУ \"Владислав Граматик\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "ДГ №126 \"Тинтява\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "137 СУ \"Ангел Кънчев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "119 СУ \"Академик М. Арнаудов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "8. СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ДГ 151 \"ЛЕДА МИЛЕВА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "42. ОУ \"Хаджи Димитър\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ДГ №129",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "НГПИ \"СВ. ЛУКА\" - СОФИЯ",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "по изкуствата",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"ЛИДИ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ Пчелното Кошерче",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "ДГ 96",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "109 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ЧДГ \"Цветен ден\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "56.СУ \"Проф. К. Иречек\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "97 СУ \"Братя Миладинови\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Световрачене",
+    "Region": "Нови Искър",
+    "Name": "177 ОУ Св.Св.Кирил и Методий",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "НУИИ \"Илия Петров\"",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "по изкуствата",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "98 Начално училище",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "начално",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "15 СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ДГ № 104",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "33 ОУ \"Санкт Петербург\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "ДГ № 169 \" КОЛЕДАРЧЕ \"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Панчарево",
+    "Name": "Таткова градина",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "СГСАГ \"ХРИСТО БОТЕВ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "144 СУ \"Народни будители\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "ДГ № 130",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ\"Щастливата къща\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "НГДЕК Константин Кирил Философ",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "по културата",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ЧДГ\"Славейче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ЧДГ \"Къщата на Алиса\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Банкя",
+    "Region": "Банкя",
+    "Name": "ЧНУ \"Фоти\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "начално",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "ДГ №138 \"Приятели\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ Детската ЕООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ДГ №191",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ДГ №154",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "58 ОУ \"Сергей Румянцев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ № 188",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ЧНУ Канадско Мече",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "начално",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ЧДГ\"Чудната къщичка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ДГ №149 \"Зорница\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "7. СУ \"Свети Седмочисленици\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧОУ \"Роналд Лаудер\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "133 СУ \"А.С.Пушкин\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ 162 \"Вихрогонче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ЧОУ\"Азбуки\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ЧЕГ \"Проф.Ив.Апостолов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "НПГПТО \"М.В.Ломоносов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ Космически деца ЕООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "12 СУ \"Цар Иван Асен ІІ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ЧАСТНА ДЕТСКА ГРАДИНА \"АРТИ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ЧПГЧО \" Езиков свят\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ЧОУ \"Езиков свят\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \" Елхица\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "ДГ № 29 \"Слънце\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "91 НЕГ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ \"Д-р П.Берон\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "СУ \"Ген. Вл. Стойчев\"",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "спортно",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Железница",
+    "Region": "Панчарево",
+    "Name": "ДГ№181\"Радост\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "ПГ ПО ТРАНСПОРТ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "46 ОУ \"К. Фотинов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ЧНГ \"ЕРИХ КЕСТНЕР\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ №107\"Бон-бон\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "16. ОУ \"Р. Жинзифов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ №117 - Надежда",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "ДГ № 49 \"Радост\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ДГ 84 \" ДЕТЕЛИНА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "36 СУ \"Максим Горки\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "203 ПЕГ \"Св. Методий\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "ЧДГ \"Фънки Мънки\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "32.СУИЧЕ \"Св.Климент Охридски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "НФСГ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ЧДГ \"Йор Кидс\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ДГ № 45 \"АЛИСА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "140. СУ \"Иван Богоров\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "129 ОУ \"Антим -І\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ЧОУ \"ЕРИХ КЕСТНЕР\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ № 85",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ \"Валдорф\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ЧДГ \"Ерих Кестнер\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ № 91",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Доброславци",
+    "Region": "Нови Искър",
+    "Name": "179 ОУ \"Васил Левски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ №105",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "51 СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Долни Пасарел",
+    "Region": "Панчарево",
+    "Name": "202 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ЧДГ \"Пролет\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "108 СУ \"Н.Беловеждов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "153 СУ \"Н.Рилски\"",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "спортно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "35. СЕУ \"Добри Войников\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "3. СУ \"МАРИН ДРИНОВ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ДГ № 40 \"Проф.Г.Ангушев\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ДГ №111\"КОРАБЧЕ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "150-то ОУ \"ЦАР СИМЕОН ПЪРВИ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ЧПГ по БДТФ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"Маргаритка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "26 СУ \"Йордан Йовков\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ № 11 \"Мики Маус\"2213972",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "66 СУ \"Филип Станиславов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "100-но ОУ \"Н. Геров\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ПГМЕ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "136 ОУ \"Любен Каравелов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Горни Богров",
+    "Region": "Кремиковци",
+    "Name": "115ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ №59 \"Елхица\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "\"Палави крачета\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "37. СУ \"Райна Княгиня\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "ДГ № 179 \" Синчец \"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Герман",
+    "Region": "Панчарево",
+    "Name": "ДГ № 180",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 22",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "ДГ №159 \" Олимпийче \"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ДГ № 87",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "120 ОУ \"Г.С.Раковски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 73",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "6 ОУ \"Граф Игнатиев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Кремиковци",
+    "Name": "156-о ОбУ \"В.Левски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "обединено",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "105. СУ \"Атанас Далчев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ДГ № 100",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧДГ Детски Оазис",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "ДГ №198\" Косе Босе\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ЧПГ \"Образователни технологии\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ДГ №195",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "82. ОУ \"В. Априлов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ\" Детска къща Монтесори\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Средец",
+    "Name": "38ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ДГ №174\"Фют\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "44. СУ \"НЕОФИТ БОЗВЕЛИ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ДГ №155 \"Веселина\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Кремиковци",
+    "Name": "85 СУ \"Отец Паисий\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "Мечтател",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ДГ №19",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "ДГ № 185 \"ЗВЕЗДИЧКА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Панчарево",
+    "Name": "ЧДГ \"ЕКО ДАРА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ 173",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧПСУ \"Свети Наум\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ \"Свети Георги\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "118 СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "122. ОУ \"Н. Лилиев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ПГТ \"МАКГАХАН\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Панчарево",
+    "Name": "ЧСУЧП \"Абрахам Линкълн\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Лозен",
+    "Region": "Панчарево",
+    "Name": "201 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧСУ с РЧЕО \"ЕСПА\" ЕООД",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ДГ № 199 \"Сарагоса\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"Сияние\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "29. СУ \"Кузман Шапкарев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "ДГ №108",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ПГИИ \"Проф. Н. Райнов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "76. ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ЧДГ МЕЧО ПУХ",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Оборище",
+    "Name": "ПЧАГ \"Уилям Шекспир-Инт. Инв.\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "40 СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ № 123",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Възраждане",
+    "Name": "ДГ № 50 \"Зайчето Куики\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ Откривател",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ Златно зрънце ЕООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "77 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧОУ \"Откривател\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"БРИТАНИКА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ № 145",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ№64\"Първи юни\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Железница",
+    "Region": "Панчарево",
+    "Name": "191 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ДУ СДС \"Св. Иван Рилски\"",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "духовно",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "163 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "157 ГИЧЕ \"Сесар Вайехо\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "126 ОУ \"П. Ю. Тодоров\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "142 ОУ \"Веселин Ханчев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "ДГ №52 \"ИЛИНДЕНЧЕ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Владая",
+    "Region": "Витоша",
+    "Name": "ДГ № 4 \"Слънчо\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ПГСС \"БУЗЕМА\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Горни Богров",
+    "Region": "Кремиковци",
+    "Name": "ДГ 147 \"Славейче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "50. ОУ\"Васил Левски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ДГ№116\"Мусала\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ДГ №141",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "ДГ №110",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ДГ №2 \" ЗВЪНЧЕ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "ЧПГИ ,,Булпрогрес\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧСУ \"Свети Георги\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "10 СУ \"Теодор Траянов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ЧОУ \"Монтесори\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "ДГ№196\"Шарл Перо\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "СПГ \"Княгиня Евдокия\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ДГ №184 \"МЕЧО ПУХ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧОУ \"Куест\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧДГ \"КУЕСТ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧОУ \"Меридиан 22\" ЕООД",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "19 СУ \"Елин Пелин\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ЧДГ Монтесори",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "\"ЧСУ Българско школо\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ДГ №183",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ЧОУ Образователни технологии",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Нови Искър",
+    "Region": "Нови Искър",
+    "Name": "171 ОУ \"Стоил Попов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "Детска градина № 36 Пеперуда",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "ДГ №133",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "25 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "199 ОУ Св. Ап. Й. Богослов",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "ЧСУ \"Дружба\" - София",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "ДГ N 54\"ДЪГА\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "ЧДГ \" АРЛЕКИНО \"ООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Долни Пасарел",
+    "Region": "Панчарево",
+    "Name": "ДГ №182 \"Пчелица\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "ДГ № 128\"Феникс\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Люлин",
+    "Name": "ДГ № 95\" ОМАЙНИЧЕ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ПГЕБ\"Проф. д-р Асен Златаров\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧПГЧО \"Меридиан 22\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ № 178 \"Ср. Копитце\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ДГ № 39\" ПРОЛЕТ \"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Връбница",
+    "Name": "\"Дружба\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ№ 98 \" Слънчево зайче",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ №14",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Подуяне",
+    "Name": "166 СУ \"В.Левски\"",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "спортно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧСЕУ \"Британика\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "41 0У \"Св. Патриарх Евтимий\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "ДГ № 51 \"Щурче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "138.СУЗИЕ \"Проф.В.Златарски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "94 СУ \"Д.Страшимиров\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ДГ № 28",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Казичене",
+    "Region": "Панчарево",
+    "Name": "71 СУ \"П.Яворов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "2. СУ \"Акад.Емилиян Станев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "123 СУ \"Стефан Стамболов",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧДГ \"Меридиан 22\" ЕООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "ДГ №187",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "ДГ №165 \"Латинка\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "47СУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ ЗВЕЗДИЧКА ЕООД",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "ДГ № 164 \"Зорница\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Илинден",
+    "Name": "ДГ № 153",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красно село",
+    "Name": "ДГ № 134",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "17 СУ \"Дамян Груев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Нови Искър",
+    "Region": "Нови Искър",
+    "Name": "172 ОбУ \"Христо Ботев\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "обединено",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "ЧДГ\" Вълшебното Борче\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧСУ \"РЬОРИХ\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"Ежко Бежко\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "57 СУ \"Св. Н. Охридски\"",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "спортно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Сердика",
+    "Name": "ЧДГ \"Веда\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ЧСУ \"ВЕДА\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Красна поляна",
+    "Name": "147 ОУ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ПГД \"Елисавета Вазова\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "професионална гимназия",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "ДГ № 30 \"РАДЕЦКИ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Триадица",
+    "Name": "ДГ№167\"МАЛКИЯТ ПРИНЦ\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ЧОУ \"ПРОФ. Д-Р ВАСИЛ ЗЛАТАРСКИ",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Студентски",
+    "Name": "ЧЕГ \"Проф.д-р В. Златарски\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "68. СУ\"Акад.Никола Обрешков\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ Кидсвил",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Младост",
+    "Name": "Американски колеж в София",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "профилирана гимназия",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Витоша",
+    "Name": "ЧДГ \"Приятелска къща\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "Панчарево",
+    "Region": "Панчарево",
+    "Name": "ДГ №66",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Искър",
+    "Name": "69 СУ \"Димитър Маринов\"",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "средно",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ЧОУ \"Джани РоДари\" ЕООД",
+    "InstitutionType": "неспециализирано",
+    "DetailedInstitutionType": "основно",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Слатина",
+    "Name": "ЧДГ \"Джани Родари\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Изгрев",
+    "Name": "Детска Академия",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Овча Купел",
+    "Name": "НУККЛИИЕК",
+    "InstitutionType": "специализирано",
+    "DetailedInstitutionType": "по културата",
+    "FinancialType": "Държавно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "Детска градина №83 Славейче",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ №24",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Лозенец",
+    "Name": "ЧДГ \"Веселите камбанки\"",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Частно"
+  },
+  {
+    "District": "София-град",
+    "Municipality": "Столична",
+    "InhabitedArea": "София",
+    "Region": "Надежда",
+    "Name": "ДГ №38",
+    "InstitutionType": "детска градина",
+    "DetailedInstitutionType": "детска градина",
+    "FinancialType": "Общинско"
+  }
+]
