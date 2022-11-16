@@ -23,10 +23,10 @@
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Начало</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Училища</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="School" asp-action="allschools">Училища</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Детски градини</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Kindergarten" asp-action="allkindergartens">Детски градини</a>
                         </li>
                       @*  <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
@@ -36,8 +36,8 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container-fluid">
+        <main role="main" class="container-fluid">
             @RenderBody()
         </main>
     </div>
