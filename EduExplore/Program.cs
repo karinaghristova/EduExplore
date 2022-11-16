@@ -34,10 +34,10 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=School}/{action=AllSchools}/{page?}");
+    pattern: "{controller=School}/{action=AllSchools}/{page?}/{pageSize?}");
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Kindergarten}/{action=AllKindergartens}/{page?}");
+    pattern: "{controller=Kindergarten}/{action=AllKindergartens}/{page?}/{pageSize?}");
 
 /*app.MapRazorPages()*/
 ;
