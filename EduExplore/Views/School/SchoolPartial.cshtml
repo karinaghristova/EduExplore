@@ -1,0 +1,17 @@
+﻿@using EduExplore.Core.Models
+@model InstitutionListViewModel
+
+
+<div class="card d-inline-flex customMargin" style="width: 15em;">
+    <div class="card-header text-light text-center purple-background">
+        <h5>@Model.Name</h5>
+    </div>
+    <div class="card-body">
+        <p class="card-text text-blue"><i><b class="text-dark-blue">Област:</b></i> @Model.District</p>
+        <p class="card-text text-blue"><i><b class="text-dark-blue">Община:</b></i> @Model.Municipality </p>
+        <p class="card-text text-blue"><i><b class="text-dark-blue">Населено място:</b></i> @Model.InhabitedArea</p>
+        <p class="card-text text-blue"><i><b class="text-dark-blue">Район:</b></i> @Model.Region</p>
+        <p class="card-text text-blue"><i><b class="text-dark-blue">Вид:</b></i> @Model.InstitutionType</p>
+        <p class="card-text text-blue"><i><b class="text-dark-blue">Вид в детайли:</b></i> @Model.DetailedInstitutionType</p>                <p class="card-text text-blue"><i><b class="text-dark-blue">Тип на финансиране:</b></i> @Model.FinancialType</p>
+    </div>
+</div>

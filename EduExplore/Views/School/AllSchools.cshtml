@@ -1,0 +1,34 @@
+﻿@using System.Collections.Generic
+@model AllSchoolsViewModel
+@{
+    var previousDisabled = Model.Paging.CurrentPage == 1 ? "disabled" : "";
+    var nextDisabled = Model.Paging.CurrentPage == Model.Paging.TotalPages ? "disabled" : "";
+    var schoolsPresent = Model.Schools.Count() != 0 ? true : false;
+}
+
+
+<div class="row justify-content-center">
+    @foreach (var school in Model.Schools.Take(20))
+    {
+        <partial name="SchoolPartial" model="@school"></partial>
+    }
+    @if (schoolsPresent)
+    {
+        <div>
+            <ul class="pagination justify-content-center">
+                <li class="page-item col-auto text-center @previousDisabled">
+                    <a class="page-link" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.PreviousPage})">Previous Page</a>
+                </li>
+
+
+                <li class="page-item col-auto text-center active">
+                    <a class="page-link" href="#">@Model.Paging.CurrentPage</a>
+                </li>
+                <li class="page-item col-auto text-center @nextDisabled">
+                    <a class="page-link" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.NextPage})">Next Page</a>
+                </li>
+            </ul>
+        </div>
+    }
+</div>
+
