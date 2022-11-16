@@ -21,3 +21,19 @@ body {
 .gradient-custom {
     background: linear-gradient(to right, rgba(196, 113, 245, 1), rgba(250, 113, 205, 1))
 }
+
+.customMargin{
+    margin: 5px;
+}
+
+.purple-background {
+    background-color: #A155B9
+}
+
+.text-dark-blue{
+    color: #0B1354
+}
+
+.text-blue{
+    color: #165BAA
+}
