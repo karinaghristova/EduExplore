@@ -35,9 +35,9 @@ namespace EduExplore.Core.Services
                     Municipality = i.Municipality.Name.ToString(),
                     InhabitedArea = i.InhabitedArea.Name.ToString(),
                     Region = i.Region.Name.ToString(),
-                    InstitutionType = i.InstitutionType.ToString(),
-                    DetailedInstitutionType = i.DetailedInstitutionType.ToString(),
-                    FinancialType = i.FinancialType.ToString()
+                    InstitutionType = i.InstitutionType.Name.ToString(),
+                    DetailedInstitutionType = i.DetailedInstitutionType.Name.ToString(),
+                    FinancialType = i.FinancialType.Name.ToString()
                 })
                 .ToListAsync();
         }
@@ -62,9 +62,9 @@ namespace EduExplore.Core.Services
                   Municipality = i.Municipality.Name.ToString(),
                   InhabitedArea = i.InhabitedArea.Name.ToString(),
                   Region = i.Region.Name.ToString(),
-                  InstitutionType = i.InstitutionType.ToString(),
-                  DetailedInstitutionType = i.DetailedInstitutionType.ToString(),
-                  FinancialType = i.FinancialType.ToString()
+                  InstitutionType = i.InstitutionType.Name.ToString(),
+                  DetailedInstitutionType = i.DetailedInstitutionType.Name.ToString(),
+                  FinancialType = i.FinancialType.Name.ToString()
               })
               .ToListAsync();
         }
@@ -89,9 +89,9 @@ namespace EduExplore.Core.Services
                   Municipality = i.Municipality.Name.ToString(),
                   InhabitedArea = i.InhabitedArea.Name.ToString(),
                   Region = i.Region.Name.ToString(),
-                  InstitutionType = i.InstitutionType.ToString(),
-                  DetailedInstitutionType = i.DetailedInstitutionType.ToString(),
-                  FinancialType = i.FinancialType.ToString()
+                  InstitutionType = i.InstitutionType.Name.ToString(),
+                  DetailedInstitutionType = i.DetailedInstitutionType.Name.ToString(),
+                  FinancialType = i.FinancialType.Name.ToString()
               })
               .ToListAsync();
         }
@@ -116,9 +116,9 @@ namespace EduExplore.Core.Services
                   Municipality = i.Municipality.Name.ToString(),
                   InhabitedArea = i.InhabitedArea.Name.ToString(),
                   Region = i.Region.Name.ToString(),
-                  InstitutionType = i.InstitutionType.ToString(),
-                  DetailedInstitutionType = i.DetailedInstitutionType.ToString(),
-                  FinancialType = i.FinancialType.ToString()
+                  InstitutionType = i.InstitutionType.Name.ToString(),
+                  DetailedInstitutionType = i.DetailedInstitutionType.Name.ToString(),
+                  FinancialType = i.FinancialType.Name.ToString()
               })
               .ToListAsync();
         }
@@ -143,9 +143,9 @@ namespace EduExplore.Core.Services
                   Municipality = i.Municipality.Name.ToString(),
                   InhabitedArea = i.InhabitedArea.Name.ToString(),
                   Region = i.Region.Name.ToString(),
-                  InstitutionType = i.InstitutionType.ToString(),
-                  DetailedInstitutionType = i.DetailedInstitutionType.ToString(),
-                  FinancialType = i.FinancialType.ToString()
+                  InstitutionType = i.InstitutionType.Name.ToString(),
+                  DetailedInstitutionType = i.DetailedInstitutionType.Name.ToString(),
+                  FinancialType = i.FinancialType.Name.ToString()
               })
               .ToListAsync();
         }
@@ -170,9 +170,9 @@ namespace EduExplore.Core.Services
                   Municipality = i.Municipality.Name.ToString(),
                   InhabitedArea = i.InhabitedArea.Name.ToString(),
                   Region = i.Region.Name.ToString(),
-                  InstitutionType = i.InstitutionType.ToString(),
-                  DetailedInstitutionType = i.DetailedInstitutionType.ToString(),
-                  FinancialType = i.FinancialType.ToString()
+                  InstitutionType = i.InstitutionType.Name.ToString(),
+                  DetailedInstitutionType = i.DetailedInstitutionType.Name.ToString(),
+                  FinancialType = i.FinancialType.Name.ToString()
               })
               .ToListAsync();
         }
