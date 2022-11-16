@@ -19,10 +19,10 @@ namespace EduExplore.Controllers
             return View();
         }
 
-        public async Task<IActionResult> AllKindergartens(int page = 1)
+        public async Task<IActionResult> AllKindergartens(int page = 1, int pageSize = PageConstants.PageSize20)
         {
             var kindergartens = await kindergartenService.GetAllKindergartens();
-            int kindergartensPerPage = PageConstants.PageSize20;
+            int kindergartensPerPage = pageSize;
             int kindergartensToSkip = page == 1 ? 0 : ((page - 1) * kindergartensPerPage);
 
 
