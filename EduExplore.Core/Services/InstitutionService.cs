@@ -25,6 +25,7 @@ namespace EduExplore.Core.Services
             return await repo.All<DetailedInstitutionType>()
                 .Select(dit => new NamedCharacteristicListViewModel
                 {
+                    Id = dit.Id.ToString(),
                     Name = dit.Name
                 })
                 .ToListAsync();
@@ -35,6 +36,7 @@ namespace EduExplore.Core.Services
             return await repo.All<FinancialType>()
                 .Select(ft => new NamedCharacteristicListViewModel
                 {
+                    Id = ft.Id.ToString(),
                     Name = ft.Name
                 })
                 .ToListAsync();
@@ -45,6 +47,7 @@ namespace EduExplore.Core.Services
             return await repo.All<InhabitedArea>()
                 .Select(i => new NamedCharacteristicListViewModel
                 {
+                    Id = i.Id.ToString(),
                     Name = i.Name
                 })
                 .ToListAsync();
@@ -55,6 +58,7 @@ namespace EduExplore.Core.Services
             return await repo.All<InstitutionType>()
                 .Select(it => new NamedCharacteristicListViewModel
                 {
+                    Id = it.Id.ToString(),
                     Name = it.Name
                 })
                 .ToListAsync();
@@ -65,6 +69,7 @@ namespace EduExplore.Core.Services
             return await repo.All<Region>()
                 .Select(r => new NamedCharacteristicListViewModel
                 {
+                    Id = r.Id.ToString(),
                     Name = r.Name
                 })
                 .ToListAsync();
