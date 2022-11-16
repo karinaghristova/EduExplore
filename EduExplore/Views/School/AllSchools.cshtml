@@ -1,4 +1,5 @@
 ﻿@using System.Collections.Generic
+@using EduExplore.Core.Constants
 @model AllSchoolsViewModel
 @{
     var previousDisabled = Model.Paging.CurrentPage == 1 ? "disabled" : "";
@@ -6,9 +7,39 @@
     var schoolsPresent = Model.Schools.Count() != 0 ? true : false;
 }
 
+<h1 class="text-pink text-center">Списък на всички училища</h1>
+
+<ol class="breadcrumb justify-content-center">
+    <li id="ElementsPerPage" class="customMargin">
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Да се показват по:</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = 20})">20</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = 50})">50</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = 100})">100</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = 200})">200</a>
+            </div>
+        </div>
+    </li>
+
+    <li id="showByFilter" class="customMargin">
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Покажи:</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = @Model.Paging.PageSize})">Всички училища</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = @Model.Paging.PageSize})">Според населеното място</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = @Model.Paging.PageSize})">Според региона</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = @Model.Paging.PageSize})">Според вида</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = @Model.Paging.PageSize})">Според детайлния вид</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = @Model.Paging.PageSize})">Според финансирането</a>
+            </div>
+        </div>
+    </li>
+</ol>
 
 <div class="row justify-content-center">
-    @foreach (var school in Model.Schools.Take(20))
+    @foreach (var school in Model.Schools.Take(@Model.Paging.PageSize))
     {
         <partial name="SchoolPartial" model="@school"></partial>
     }
@@ -17,7 +48,7 @@
         <div>
             <ul class="pagination justify-content-center">
                 <li class="page-item col-auto text-center @previousDisabled">
-                    <a class="page-link" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.PreviousPage})">Previous Page</a>
+                    <a class="page-link" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.PreviousPage, pageSize = @Model.Paging.PageSize})">Previous Page</a>
                 </li>
 
 
@@ -25,7 +56,7 @@
                     <a class="page-link" href="#">@Model.Paging.CurrentPage</a>
                 </li>
                 <li class="page-item col-auto text-center @nextDisabled">
-                    <a class="page-link" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.NextPage})">Next Page</a>
+                    <a class="page-link" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.NextPage, pageSize = @Model.Paging.PageSize})">Next Page</a>
                 </li>
             </ul>
         </div>
