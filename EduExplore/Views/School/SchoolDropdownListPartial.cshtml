@@ -1,0 +1,15 @@
+﻿@model AllSchoolsViewModel
+
+<li id="showByFilter" class="customMargin">
+    <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Покажи:</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = @Model.Paging.PageSize})">Всички училища</a>
+            <a class="dropdown-item" href="@Url.Action("AllInhabitedAreasSchool", "Institution")">Според населеното място</a>
+            <a class="dropdown-item" href="@Url.Action("AllRegionsSchool", "Institution")">Според региона</a>
+            <a class="dropdown-item" href="@Url.Action("AllSchools", "School")">Според вида</a>
+            <a class="dropdown-item" href="@Url.Action("AllSchools", "School")">Според детайлния вид</a>
+            <a class="dropdown-item" href="@Url.Action("AllSchools", "School")">Според финансирането</a>
+        </div>
+    </div>
+</li>
