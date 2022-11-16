@@ -1,4 +1,6 @@
-﻿using EduExplore.Infrastructure.Data;
+﻿using EduExplore.Core.Contracts;
+using EduExplore.Core.Services;
+using EduExplore.Infrastructure.Data;
 using EduExplore.Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,11 +11,9 @@ namespace Microsoft.Extensions.DependencyInjection
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
             services.AddScoped<IApplicationDbRepository, ApplicationDbRepository>();
-            //services.AddScoped<IUserService, UserService>();
-            //services.AddScoped<IMovieService, MovieService>();
-            //services.AddScoped<IBookService, BookService>();
-            //services.AddScoped<IExerciseService, ExerciseService>();
-            //services.AddScoped<IWorkoutService, WorkoutService>();
+            services.AddScoped<ISchoolService, SchoolService>();
+            services.AddScoped<IKindergartenService, KindergartenService>();
+            services.AddScoped<IInstitutionService, InstitutionService>();
 
             return services;
         }
