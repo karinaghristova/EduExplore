@@ -81,5 +81,25 @@ namespace EduExplore.Controllers
             });
         }
 
+        public async Task<IActionResult> AllRegionsKindergartens()
+        {
+            var inhabitedAreas = await institutionService.GetAllRegionsForKindergartens();
+
+            return View(new AllNamedCharacteristicsViewModel
+            {
+                Characteristics = inhabitedAreas
+            });
+        }
+
+        public async Task<IActionResult> AllFinancialTypesKindergarten()
+        {
+            var financialTypes = await institutionService.GetAllFinancialTypesForKindergartens();
+
+            return View(new AllNamedCharacteristicsViewModel
+            {
+                Characteristics = financialTypes
+            });
+        }
+
     }
 }
