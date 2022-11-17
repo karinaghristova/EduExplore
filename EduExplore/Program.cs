@@ -28,17 +28,44 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-//will have to add some things here
+//Home
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+//School
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=School}/{action=AllSchools}/{page?}/{pageSize?}");
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Kindergarten}/{action=AllKindergartens}/{page?}/{pageSize?}");
+    pattern: "{controller=School}/{action=AllSchoolsByInhabitedArea}/{id}/{page?}/{pageSize?}");
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=School}/{action=AllSchoolsByRegion}/{id}/{page?}/{pageSize?}");
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=School}/{action=AllSchoolsByInstitutionType}/{id}/{page?}/{pageSize?}");
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=School}/{action=AllSchoolsByDetailedInstitutionType}/{id}/{page?}/{pageSize?}");
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=School}/{action=AllSchoolsByFinancialType}/{id}/{page?}/{pageSize?}");
 
+//Kindergarten
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Kindergarten}/{action=AllKindergartens}/{page?}/{pageSize?}");
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Kindergarten}/{action=AllKindergartensByInhabitedArea}/{id}/{page?}/{pageSize?}");
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Kindergarten}/{action=AllKindergartensByRegion}/{id}/{page?}/{pageSize?}");
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Kindergarten}/{action=AllKindergartensByFinancialType}/{id}/{page?}/{pageSize?}");
 /*app.MapRazorPages()*/
 ;
 

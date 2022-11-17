@@ -258,7 +258,7 @@ namespace EduExplore.Core.Services
 
         public async Task<NamedCharacteristicListViewModel> GetDetailedInstitutionTypeById(string id)
         {
-            var detailedInstitutionType = await repo.GetByIdAsync<DetailedInstitutionType>(id);
+            var detailedInstitutionType = await repo.GetByIdAsync<DetailedInstitutionType>(new Guid(id));
             return new NamedCharacteristicListViewModel()
             {
                 Id = detailedInstitutionType.Id.ToString(),
@@ -268,7 +268,7 @@ namespace EduExplore.Core.Services
 
         public async Task<NamedCharacteristicListViewModel> GetFinancialTypeById(string id)
         {
-            var financialType = await repo.GetByIdAsync<FinancialType>(id);
+            var financialType = await repo.GetByIdAsync<FinancialType>(new Guid(id));
             return new NamedCharacteristicListViewModel()
             {
                 Id = financialType.Id.ToString(),
@@ -278,7 +278,7 @@ namespace EduExplore.Core.Services
 
         public async Task<NamedCharacteristicListViewModel> GetInhabitedAreaById(string id)
         {
-            var inhabitedArea = await repo.GetByIdAsync<InhabitedArea>(id);
+            var inhabitedArea = await repo.GetByIdAsync<InhabitedArea>(new Guid(id));
             return new NamedCharacteristicListViewModel()
             {
                 Id = inhabitedArea.Id.ToString(),
@@ -288,7 +288,7 @@ namespace EduExplore.Core.Services
 
         public async Task<NamedCharacteristicListViewModel> GetInstitutionTypeById(string id)
         {
-            var institutionType = await repo.GetByIdAsync<InstitutionType>(id);
+            var institutionType = await repo.GetByIdAsync<InstitutionType>(new Guid(id));
             return new NamedCharacteristicListViewModel()
             {
                 Id = institutionType.Id.ToString(),
@@ -298,7 +298,7 @@ namespace EduExplore.Core.Services
 
         public async Task<NamedCharacteristicListViewModel> GetRegionById(string id)
         {
-            var region = await repo.GetByIdAsync<Region>(id);
+            var region = await repo.GetByIdAsync<Region>(new Guid(id));
             return new NamedCharacteristicListViewModel()
             {
                 Id = region.Id.ToString(),
