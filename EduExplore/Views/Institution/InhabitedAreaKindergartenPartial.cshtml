@@ -1,0 +1,7 @@
+﻿@using EduExplore.Core.Models
+@model NamedCharacteristicListViewModel
+
+
+<div class="card text-light text-center purple-background d-inline-flex customMargin" style="width: 15em;">
+    <h5><a class="text-light" href="@Url.Action("AllKindergartensByInhabitedArea", "Kindergarten", new {inhabitedAreaId = @Model.Id})">@Model.Name</a></h5>
+</div>

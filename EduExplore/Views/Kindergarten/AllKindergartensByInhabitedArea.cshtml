@@ -1,0 +1,54 @@
+﻿@using System.Collections.Generic
+@using EduExplore.Models.Kindergarten
+@model AllKindergartensViewModel
+@{
+    var previousDisabled = Model.Paging.CurrentPage == 1 ? "disabled" : "";
+    var nextDisabled = Model.Paging.CurrentPage == Model.Paging.TotalPages ? "disabled" : "";
+    var kindergartensPresent = Model.Kindergartens.Count() != 0 ? true : false;
+}
+
+<h1 class="text-pink text-center">Списък на всички детски градини от населено място <i>@Model.CriteriaName</i></h1>
+
+<ol class="breadcrumb justify-content-center">
+    <li id="ElementsPerPage" class="customMargin">
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Да се показват по:</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="@Url.Action("AllKindergartensByInhabitedArea", "Kindergarten", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.FirstPage, pageSize = 20})">20</a>
+                <a class="dropdown-item" href="@Url.Action("AllKindergartensByInhabitedArea", "Kindergarten", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.FirstPage, pageSize = 50})">50</a>
+                <a class="dropdown-item" href="@Url.Action("AllKindergartensByInhabitedArea", "Kindergarten", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.FirstPage, pageSize = 100})">100</a>
+                <a class="dropdown-item" href="@Url.Action("AllKindergartensByInhabitedArea", "Kindergarten", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.FirstPage, pageSize = 200})">200</a>
+            </div>
+        </div>
+    </li>
+    <partial name="KindergartenDropdownListPartial"></partial>
+</ol>
+
+
+
+<div class="row justify-content-center">
+    @foreach (var kindergarten in Model.Kindergartens.Take(@Model.Paging.PageSize))
+    {
+        <partial name="KindergartenInInhabitedAreaPartial" model="@kindergarten"></partial>
+    }
+    @if (kindergartensPresent)
+    {
+        <div>
+            <ul class="pagination justify-content-center">
+                <li class="page-item col-auto text-center @previousDisabled">
+                    <a class="page-link" href="@Url.Action("AllKindergartensByInhabitedArea", "Kindergarten", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.PreviousPage, pageSize = @Model.Paging.PageSize})">Previous Page</a>
+                </li>
+
+
+                <li class="page-item col-auto text-center active">
+                    <a class="page-link" href="#">@Model.Paging.CurrentPage</a>
+                </li>
+                <li class="page-item col-auto text-center @nextDisabled">
+                    <a class="page-link" href="@Url.Action("AllKindergartensByInhabitedArea", "Kindergarten", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.NextPage, pageSize = @Model.Paging.PageSize})">Next Page</a>
+                </li>
+            </ul>
+        </div>
+    }
+</div>
+
