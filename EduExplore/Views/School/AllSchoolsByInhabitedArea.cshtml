@@ -15,10 +15,10 @@
             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Да се показват по:</a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="@Url.Action("AllSchoolsByInhabitedArea", "School", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 20})">20</a>
-                <a class="dropdown-item" href="@Url.Action("AllSchoolsByInhabitedArea", "School", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 50})">50</a>
-                <a class="dropdown-item" href="@Url.Action("AllSchoolsByInhabitedArea", "School", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 100})">100</a>
-                <a class="dropdown-item" href="@Url.Action("AllSchoolsByInhabitedArea", "School" , new {inhabitedAreaId=@Model.CriteriaId, page=@Model.Paging.CurrentPage, pageSize=200})">200</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByInhabitedArea", "School", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.FirstPage, pageSize = 20})">20</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByInhabitedArea", "School", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.FirstPage, pageSize = 50})">50</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByInhabitedArea", "School", new {inhabitedAreaId = @Model.CriteriaId, page = @Model.Paging.FirstPage, pageSize = 100})">100</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByInhabitedArea", "School" , new {inhabitedAreaId=@Model.CriteriaId, page=@Model.Paging.FirstPage, pageSize=200})">200</a>
             </div>
         </div>
     </li>
