@@ -166,5 +166,41 @@ namespace EduExplore.Core.Contracts
         /// </summary>
         /// <returns></returns>
         Task<int> GetNumberOfAllFinancialTypesForKindergartens();
+
+        //Mutual methods
+        /// <summary>
+        /// Returns the desired inahbited area according to the given id
+        /// </summary>
+        /// <param name="id">Id of the inhabited area</param>
+        /// <returns></returns>
+        Task<NamedCharacteristicListViewModel> GetInhabitedAreaById(string id);
+
+        /// <summary>
+        /// Returns the desired region according to the given id
+        /// </summary>
+        /// <param name="id">Id of the region</param>
+        /// <returns></returns>
+        Task<NamedCharacteristicListViewModel> GetRegionById(string id);
+
+        /// <summary>
+        /// Returns the desired institution type according to the given id
+        /// </summary>
+        /// <param name="id">Id of the institution type</param>
+        /// <returns></returns>
+        Task<NamedCharacteristicListViewModel> GetInstitutionTypeById(string id);
+
+        /// <summary>
+        /// Returns the desired detailed institution type according to the given id
+        /// </summary>
+        /// <param name="id">Id of the detailed institution type</param>
+        /// <returns></returns>
+        Task<NamedCharacteristicListViewModel> GetDetailedInstitutionTypeById(string id);
+
+        /// <summary>
+        /// Returns the desired financial type according to the given id
+        /// </summary>
+        /// <param name="id">Id of the financial type</param>
+        /// <returns></returns>
+        Task<NamedCharacteristicListViewModel> GetFinancialTypeById(string id);
     }
 }
