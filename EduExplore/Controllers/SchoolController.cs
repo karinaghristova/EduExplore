@@ -8,10 +8,12 @@ namespace EduExplore.Controllers
     public class SchoolController : Controller
     {
         private readonly ISchoolService schoolService;
+        private readonly IInstitutionService institutionService;
 
-        public SchoolController(ISchoolService schoolService)
+        public SchoolController(ISchoolService schoolService, IInstitutionService institutionService)
         {
             this.schoolService = schoolService;
+            this.institutionService = institutionService;
         }
 
         public IActionResult Index()
@@ -43,7 +45,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByInhabitedArea(inhabitedAreaId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
-
+            var inhabitedArea = await institutionService.GetInhabitedAreaById(inhabitedAreaId);
 
             return View(new AllSchoolsViewModel
             {
@@ -54,7 +56,8 @@ namespace EduExplore.Controllers
                     TotalItems = schools.Count(),
                     PageSize = schoolsPerPage
                 },
-                CriteriaId = inhabitedAreaId
+                CriteriaId = inhabitedAreaId,
+                CriteriaName = inhabitedArea.Name
             });
         }
 
@@ -63,6 +66,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByRegion(regionId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
+            var region = await institutionService.GetRegionById(regionId);
 
 
             return View(new AllSchoolsViewModel
@@ -74,7 +78,8 @@ namespace EduExplore.Controllers
                     TotalItems = schools.Count(),
                     PageSize = schoolsPerPage
                 },
-                CriteriaId = regionId
+                CriteriaId = regionId,
+                CriteriaName = region.Name
             });
         }
 
@@ -83,7 +88,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByInstitutionType(institutionTypeId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
-
+            var institutionType = await institutionService.GetInstitutionTypeById(institutionTypeId);
 
             return View(new AllSchoolsViewModel
             {
@@ -94,7 +99,8 @@ namespace EduExplore.Controllers
                     TotalItems = schools.Count(),
                     PageSize = schoolsPerPage
                 },
-                CriteriaId = institutionTypeId
+                CriteriaId = institutionTypeId,
+                CriteriaName = institutionType.Name
             });
         }
 
@@ -103,7 +109,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByDetailedInstitutionType(detailedInstitutionTypeId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
-
+            var detailedInstitutionType = await institutionService.GetDetailedInstitutionTypeById(detailedInstitutionTypeId);
 
             return View(new AllSchoolsViewModel
             {
@@ -114,7 +120,8 @@ namespace EduExplore.Controllers
                     TotalItems = schools.Count(),
                     PageSize = schoolsPerPage
                 },
-                CriteriaId = detailedInstitutionTypeId
+                CriteriaId = detailedInstitutionTypeId,
+                CriteriaName = detailedInstitutionType.Name
             });
         }
 
@@ -123,7 +130,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByFinancialType(financialTypeId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
-
+            var financialType = await institutionService.GetFinancialTypeById(financialTypeId);
 
             return View(new AllSchoolsViewModel
             {
@@ -134,7 +141,8 @@ namespace EduExplore.Controllers
                     TotalItems = schools.Count(),
                     PageSize = schoolsPerPage
                 },
-                CriteriaId = financialTypeId
+                CriteriaId = financialTypeId,
+                CriteriaName = financialType.Name
             });
         }
     }

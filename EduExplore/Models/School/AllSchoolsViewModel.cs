@@ -9,5 +9,7 @@ namespace EduExplore.Models
         public PagingViewModel Paging { get; set; }
 
         public string CriteriaId { get; set; }
+
+        public string CriteriaName { get; set; }
     }
 }
