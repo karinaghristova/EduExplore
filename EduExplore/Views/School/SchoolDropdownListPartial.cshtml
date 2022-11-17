@@ -7,9 +7,9 @@
             <a class="dropdown-item" href="@Url.Action("AllSchools", "School", new {page = @Model.Paging.CurrentPage, pageSize = @Model.Paging.PageSize})">Всички училища</a>
             <a class="dropdown-item" href="@Url.Action("AllInhabitedAreasSchool", "Institution")">Според населеното място</a>
             <a class="dropdown-item" href="@Url.Action("AllRegionsSchool", "Institution")">Според региона</a>
-            <a class="dropdown-item" href="@Url.Action("AllSchools", "School")">Според вида</a>
-            <a class="dropdown-item" href="@Url.Action("AllSchools", "School")">Според детайлния вид</a>
-            <a class="dropdown-item" href="@Url.Action("AllSchools", "School")">Според финансирането</a>
+            <a class="dropdown-item" href="@Url.Action("AllInstitutionTypesSchool", "Institution")">Според вида</a>
+            <a class="dropdown-item" href="@Url.Action("AllDetailedInstitutionTypesSchool", "Institution")">Според детайлния вид</a>
+            <a class="dropdown-item" href="@Url.Action("AllFinancialTypesSchool", "Institution")">Според финансирането</a>
         </div>
     </div>
 </li>

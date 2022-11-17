@@ -1,0 +1,54 @@
+﻿@using System.Collections.Generic
+@using EduExplore.Core.Constants
+@model AllSchoolsViewModel
+@{
+    var previousDisabled = Model.Paging.CurrentPage == 1 ? "disabled" : "";
+    var nextDisabled = Model.Paging.CurrentPage == Model.Paging.TotalPages ? "disabled" : "";
+    var schoolsPresent = Model.Schools.Count() != 0 ? true : false;
+}
+
+<h1 class="text-pink text-center">Списък на всички училища от детайлен вид <i>@Model.CriteriaName</i></h1>
+
+<ol class="breadcrumb justify-content-center">
+    <li id="ElementsPerPage" class="customMargin">
+        <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Да се показват по:</a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByDetailedInstitutionType", "School", new {detailedInstitutionTypeId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 20})">20</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByDetailedInstitutionType", "School", new {detailedInstitutionTypeId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 50})">50</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByDetailedInstitutionType", "School", new {detailedInstitutionTypeId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 100})">100</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByDetailedInstitutionType", "School" , new {detailedInstitutionTypeId=@Model.CriteriaId, page=@Model.Paging.CurrentPage, pageSize=200})">200</a>
+            </div>
+        </div>
+    </li>
+
+    <partial name="SchoolDropdownListPartial"></partial>
+</ol>
+
+
+<div class="row justify-content-center">
+    @foreach (var school in Model.Schools.Take(@Model.Paging.PageSize))
+    {
+    <partial name="SchoolOfDetailedInstitutionTypePartial" model="@school"></partial>
+    }
+    @if (schoolsPresent)
+    {
+    <div>
+        <ul class="pagination justify-content-center">
+            <li class="page-item col-auto text-center @previousDisabled">
+                <a class="page-link" href="@Url.Action("AllSchoolsByDetailedInstitutionType", "School", new {detailedInstitutionTypeId = @Model.CriteriaId, page = @Model.Paging.PreviousPage, pageSize = @Model.Paging.PageSize})">Previous Page</a>
+            </li>
+
+
+            <li class="page-item col-auto text-center active">
+                <a class="page-link" href="#">@Model.Paging.CurrentPage</a>
+            </li>
+            <li class="page-item col-auto text-center @nextDisabled">
+                <a class="page-link" href="@Url.Action("AllSchoolsByDetailedInstitutionType", "School", new {detailedInstitutionTypeId = @Model.CriteriaId, page = @Model.Paging.NextPage, pageSize = @Model.Paging.PageSize})">Next Page</a>
+            </li>
+        </ul>
+    </div>
+    }
+</div>
+

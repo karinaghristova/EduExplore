@@ -7,7 +7,7 @@
     var schoolsPresent = Model.Schools.Count() != 0 ? true : false;
 }
 
-<h1 class="text-pink text-center">Списък на всички училища от регион <i>@Model.CriteriaName</i></h1>
+<h1 class="text-pink text-center">Списък на всички училища с <i>@Model.CriteriaName</i> финансиране</h1>
 
 <ol class="breadcrumb justify-content-center">
     <li id="ElementsPerPage" class="customMargin">
@@ -15,10 +15,10 @@
             <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Да се показват по:</a>
 
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="@Url.Action("AllSchoolsByRegion", "School", new {regionId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 20})">20</a>
-                <a class="dropdown-item" href="@Url.Action("AllSchoolsByRegion", "School", new {regionId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 50})">50</a>
-                <a class="dropdown-item" href="@Url.Action("AllSchoolsByRegion", "School", new {regionId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 100})">100</a>
-                <a class="dropdown-item" href="@Url.Action("AllSchoolsByRegion", "School" , new {regionId=@Model.CriteriaId, page=@Model.Paging.CurrentPage, pageSize=200})">200</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByFinancialType", "School", new {financialTypeId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 20})">20</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByFinancialType", "School", new {financialTypeId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 50})">50</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByFinancialType", "School", new {financialTypeId = @Model.CriteriaId, page = @Model.Paging.CurrentPage, pageSize = 100})">100</a>
+                <a class="dropdown-item" href="@Url.Action("AllSchoolsByFinancialType", "School" , new {financialTypeId=@Model.CriteriaId, page=@Model.Paging.CurrentPage, pageSize=200})">200</a>
             </div>
         </div>
     </li>
@@ -30,14 +30,14 @@
 <div class="row justify-content-center">
     @foreach (var school in Model.Schools.Take(@Model.Paging.PageSize))
     {
-    <partial name="SchoolInRegionPartial" model="@school"></partial>
+    <partial name="SchoolFinancialTypePartial" model="@school"></partial>
     }
     @if (schoolsPresent)
     {
     <div>
         <ul class="pagination justify-content-center">
             <li class="page-item col-auto text-center @previousDisabled">
-                <a class="page-link" href="@Url.Action("AllSchoolsByRegion", "School", new {regionId = @Model.CriteriaId, page = @Model.Paging.PreviousPage, pageSize = @Model.Paging.PageSize})">Previous Page</a>
+                <a class="page-link" href="@Url.Action("AllSchoolsByFinancialType", "School", new {financialTypeId = @Model.CriteriaId, page = @Model.Paging.PreviousPage, pageSize = @Model.Paging.PageSize})">Previous Page</a>
             </li>
 
 
@@ -45,7 +45,7 @@
                 <a class="page-link" href="#">@Model.Paging.CurrentPage</a>
             </li>
             <li class="page-item col-auto text-center @nextDisabled">
-                <a class="page-link" href="@Url.Action("AllSchoolsByRegion", "School", new {regionId = @Model.CriteriaId, page = @Model.Paging.NextPage, pageSize = @Model.Paging.PageSize})">Next Page</a>
+                <a class="page-link" href="@Url.Action("AllSchoolsByFinancialType", "School", new {financialTypeId = @Model.CriteriaId, page = @Model.Paging.NextPage, pageSize = @Model.Paging.PageSize})">Next Page</a>
             </li>
         </ul>
     </div>

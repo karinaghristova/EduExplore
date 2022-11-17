@@ -1,0 +1,10 @@
+﻿@model AllNamedCharacteristicsViewModel
+
+<h1 class="text-pink text-center">Моля изберете вида на финансиране на училището: </h1>
+
+<div class="row justify-content-center">
+    @foreach (var characteristic in Model.Characteristics)
+    {
+        <partial name="FinancialTypeSchoolPartial" model="@characteristic"></partial>
+    }
+</div>

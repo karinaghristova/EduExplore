@@ -1,0 +1,14 @@
+﻿@using EduExplore.Models.Kindergarten
+@model AllKindergartensViewModel
+
+<li id="showByFilter" class="customMargin">
+    <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Покажи:</a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="@Url.Action("AllKindergartens", "Kindergarten")">Всички детски градини</a>
+            <a class="dropdown-item" href="@Url.Action("AllKindergartens", "Kindergarten")">Според населеното място</a>
+            <a class="dropdown-item" href="@Url.Action("AllKindergartens", "Kindergarten")">Според региона</a>
+            <a class="dropdown-item" href="@Url.Action("AllKindergartens", "Kindergarten")">Според финансирането</a>
+        </div>
+    </div>
+</li>
