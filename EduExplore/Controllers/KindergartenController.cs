@@ -9,12 +9,10 @@ namespace EduExplore.Controllers
     public class KindergartenController : Controller
     {
         private readonly IKindergartenService kindergartenService;
-        private readonly IInstitutionService institutionService;
 
-        public KindergartenController(IKindergartenService kindergartenService, IInstitutionService institutionService)
+        public KindergartenController(IKindergartenService kindergartenService)
         {
             this.kindergartenService = kindergartenService;
-            this.institutionService = institutionService;
         }
 
         public IActionResult Index()
@@ -46,7 +44,7 @@ namespace EduExplore.Controllers
             var kindergartens = await kindergartenService.GetAllKindergartensByInhabitedArea(inhabitedAreaId);
             int kindergartensPerPage = pageSize;
             int kindergartensToSkip = page == 1 ? 0 : ((page - 1) * kindergartensPerPage);
-            var inhabitedArea = await institutionService.GetInhabitedAreaById(inhabitedAreaId);
+            var inhabitedArea = await kindergartenService.GetInhabitedAreaById(inhabitedAreaId);
 
             return View(new AllKindergartensViewModel
             {
@@ -67,7 +65,7 @@ namespace EduExplore.Controllers
             var kindergartens = await kindergartenService.GetAllKindergartensByRegion(regionId);
             int kindergartensPerPage = pageSize;
             int kindergartensToSkip = page == 1 ? 0 : ((page - 1) * kindergartensPerPage);
-            var region = await institutionService.GetRegionById(regionId);
+            var region = await kindergartenService.GetRegionById(regionId);
 
             return View(new AllKindergartensViewModel
             {
@@ -88,7 +86,7 @@ namespace EduExplore.Controllers
             var kindergartens = await kindergartenService.GetAllKindergartensByFinancialType(financialTypeId);
             int kindergartensPerPage = pageSize;
             int kindergartensToSkip = page == 1 ? 0 : ((page - 1) * kindergartensPerPage);
-            var financialType = await institutionService.GetFinancialTypeById(financialTypeId);
+            var financialType = await kindergartenService.GetFinancialTypeById(financialTypeId);
 
 
             return View(new AllKindergartensViewModel

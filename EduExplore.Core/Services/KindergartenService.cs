@@ -42,33 +42,6 @@ namespace EduExplore.Core.Services
                .ToListAsync();
         }
 
-        public async Task<IEnumerable<InstitutionListViewModel>> GetAllKindergartensByFinancialType(string financialTypeId)
-        {
-            return await repo.All<Institution>()
-               .Where(i => i.InstitutionType.Name == InstitutionTypesConstants.Kindergarten &&
-                i.FinancialTypeId == new Guid(financialTypeId))
-               .Include(d => d.District)
-               .Include(m => m.Municipality)
-               .Include(i => i.InhabitedArea)
-               .Include(r => r.Region)
-               .Include(it => it.InstitutionType)
-               .Include(dit => dit.DetailedInstitutionType)
-               .Include(f => f.FinancialType)
-               .Select(i => new InstitutionListViewModel
-               {
-                   Id = i.Id.ToString(),
-                   Name = i.Name.ToString(),
-                   District = i.District.Name.ToString(),
-                   Municipality = i.Municipality.Name.ToString(),
-                   InhabitedArea = i.InhabitedArea.Name.ToString(),
-                   Region = i.Region.Name.ToString(),
-                   InstitutionType = i.InstitutionType.Name.ToString(),
-                   DetailedInstitutionType = i.DetailedInstitutionType.Name.ToString(),
-                   FinancialType = i.FinancialType.Name.ToString()
-               })
-               .ToListAsync();
-        }
-
         public async Task<IEnumerable<InstitutionListViewModel>> GetAllKindergartensByInhabitedArea(string inhabitedAreaId)
         {
             return await repo.All<Institution>()
@@ -123,28 +96,61 @@ namespace EduExplore.Core.Services
               .ToListAsync();
         }
 
-        public async Task<int> GetNumberOfAllKindergartens()
+        public async Task<IEnumerable<InstitutionListViewModel>> GetAllKindergartensByFinancialType(string financialTypeId)
         {
-            var kindergartens = await GetAllKindergartens();
-            return kindergartens.Count();
+            return await repo.All<Institution>()
+               .Where(i => i.InstitutionType.Name == InstitutionTypesConstants.Kindergarten &&
+                i.FinancialTypeId == new Guid(financialTypeId))
+               .Include(d => d.District)
+               .Include(m => m.Municipality)
+               .Include(i => i.InhabitedArea)
+               .Include(r => r.Region)
+               .Include(it => it.InstitutionType)
+               .Include(dit => dit.DetailedInstitutionType)
+               .Include(f => f.FinancialType)
+               .Select(i => new InstitutionListViewModel
+               {
+                   Id = i.Id.ToString(),
+                   Name = i.Name.ToString(),
+                   District = i.District.Name.ToString(),
+                   Municipality = i.Municipality.Name.ToString(),
+                   InhabitedArea = i.InhabitedArea.Name.ToString(),
+                   Region = i.Region.Name.ToString(),
+                   InstitutionType = i.InstitutionType.Name.ToString(),
+                   DetailedInstitutionType = i.DetailedInstitutionType.Name.ToString(),
+                   FinancialType = i.FinancialType.Name.ToString()
+               })
+               .ToListAsync();
         }
 
-        public async Task<int> GetNumberOfAllKindergartensInInhabitedArea(string inhabitedAreaId)
+        public async Task<NamedCharacteristicListViewModel> GetInhabitedAreaById(string id)
         {
-            var kindergartens = await GetAllKindergartensByInhabitedArea(inhabitedAreaId);
-            return kindergartens.Count();
+            var inhabitedArea = await repo.GetByIdAsync<InhabitedArea>(new Guid(id));
+            return new NamedCharacteristicListViewModel()
+            {
+                Id = inhabitedArea.Id.ToString(),
+                Name = inhabitedArea.Name
+            };
         }
 
-        public async Task<int> GetNumberOfAllKindergartensInRegion(string regionId)
+        public async Task<NamedCharacteristicListViewModel> GetRegionById(string id)
         {
-            var kindergartens = await GetAllKindergartensByRegion(regionId);
-            return kindergartens.Count();
+            var region = await repo.GetByIdAsync<Region>(new Guid(id));
+            return new NamedCharacteristicListViewModel()
+            {
+                Id = region.Id.ToString(),
+                Name = region.Name
+            };
         }
 
-        public async Task<int> GetNumberOfAllKindergartensOfFinancialType(string financialTypeId)
+        public async Task<NamedCharacteristicListViewModel> GetFinancialTypeById(string id)
         {
-            var kindergartens = await GetAllKindergartensByFinancialType(financialTypeId);
-            return kindergartens.Count();
+            var financialType = await repo.GetByIdAsync<FinancialType>(new Guid(id));
+            return new NamedCharacteristicListViewModel()
+            {
+                Id = financialType.Id.ToString(),
+                Name = financialType.Name
+            };
         }
     }
 }

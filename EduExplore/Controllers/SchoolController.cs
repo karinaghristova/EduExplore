@@ -8,12 +8,10 @@ namespace EduExplore.Controllers
     public class SchoolController : Controller
     {
         private readonly ISchoolService schoolService;
-        private readonly IInstitutionService institutionService;
 
-        public SchoolController(ISchoolService schoolService, IInstitutionService institutionService)
+        public SchoolController(ISchoolService schoolService)
         {
             this.schoolService = schoolService;
-            this.institutionService = institutionService;
         }
 
         public IActionResult Index()
@@ -45,7 +43,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByInhabitedArea(inhabitedAreaId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
-            var inhabitedArea = await institutionService.GetInhabitedAreaById(inhabitedAreaId);
+            var inhabitedArea = await schoolService.GetInhabitedAreaById(inhabitedAreaId);
 
             return View(new AllSchoolsViewModel
             {
@@ -66,7 +64,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByRegion(regionId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
-            var region = await institutionService.GetRegionById(regionId);
+            var region = await schoolService.GetRegionById(regionId);
 
 
             return View(new AllSchoolsViewModel
@@ -88,7 +86,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByInstitutionType(institutionTypeId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
-            var institutionType = await institutionService.GetInstitutionTypeById(institutionTypeId);
+            var institutionType = await schoolService.GetInstitutionTypeById(institutionTypeId);
 
             return View(new AllSchoolsViewModel
             {
@@ -109,7 +107,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByDetailedInstitutionType(detailedInstitutionTypeId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
-            var detailedInstitutionType = await institutionService.GetDetailedInstitutionTypeById(detailedInstitutionTypeId);
+            var detailedInstitutionType = await schoolService.GetDetailedInstitutionTypeById(detailedInstitutionTypeId);
 
             return View(new AllSchoolsViewModel
             {
@@ -130,7 +128,7 @@ namespace EduExplore.Controllers
             var schools = await schoolService.GetAllSchoolsByFinancialType(financialTypeId);
             int schoolsPerPage = pageSize;
             int schoolsToSkip = page == 1 ? 0 : ((page - 1) * schoolsPerPage);
-            var financialType = await institutionService.GetFinancialTypeById(financialTypeId);
+            var financialType = await schoolService.GetFinancialTypeById(financialTypeId);
 
             return View(new AllSchoolsViewModel
             {
