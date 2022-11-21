@@ -8,8 +8,8 @@ I chose to make a small web application about schools and kindergartens in Sofia
 • General count of educational institutions in Sofia  
 • General count of schools and kindergartens by inhabited areas  
 ![DataVisCommonDoughnut](https://user-images.githubusercontent.com/52160729/203031570-66f281ce-9437-4fcd-ae0e-ec9cd66b1686.jpg)  
+![AllSchoolsBrowser](https://user-images.githubusercontent.com/52160729/203031956-3e710ada-c4a2-4064-834d-dce65bc7baeb.jpg)   
 • Count and list of schools and kindergartens by inhabited areas  
-![AllSchoolsBrowser](https://user-images.githubusercontent.com/52160729/203031956-3e710ada-c4a2-4064-834d-dce65bc7baeb.jpg)  
 • Count and list of schools and kindergartens by regions  
 • Count and list of schools according to he institution type  
 • Count and list of schools according to the detailed institution type  
