@@ -41,3 +41,15 @@ body {
 .text-pink{
     color: #F765A3
 }
+
+.text-purple {
+    color: #A155B9
+}
+
+.responsive-canvas {
+    width: 100%;
+}
+
+.hidden{
+    display: none;
+}

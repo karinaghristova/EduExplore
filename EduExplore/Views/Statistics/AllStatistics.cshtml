@@ -1,0 +1,184 @@
+﻿<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+@using EduExplore.Models.Statistics
+@using System.Collections.Generic
+@model SchoolsVsKindergartensStatisticsViewModel
+
+
+<div class="justify-content-center">
+    <div id="firstCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <canvas id="institutionsCountInSofiaFirstChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="institutionsCountInSofiaSecondChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="institutionsCountInSofiaThirdChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#firstCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#firstCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="secondCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <canvas id="inhabitedAreasSchoolAndKindergartensCountFirstChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="inhabitedAreasSchoolAndKindergartensCountSecondChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="inhabitedAreasSchoolAndKindergartensCountThirdChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#secondCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#secondCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<script>
+    var chartTypeArr = ['pie', 'doughnut', 'bar']
+    var chartsId = ['institutionsCountInSofiaFirstChart', 'institutionsCountInSofiaSecondChart', 'institutionsCountInSofiaThirdChart']
+    var secondChartsId = ['inhabitedAreasSchoolAndKindergartensCountFirstChart', 'inhabitedAreasSchoolAndKindergartensCountSecondChart', 'inhabitedAreasSchoolAndKindergartensCountThirdChart']
+
+    var titles = ['Брой училища и детски градини на територията на област София', 'Брой населени места, в които има училища и детски градини']
+
+    var xValues = ["Училища", "Детски градини"]
+    var yValues = [@Model.AllSchoolsCount, @Model.AllKindergartensCount];
+    var yValuesSecond = [@Model.NumberOfInhabitedAreasWithSchools, @Model.NumberOfInhabitedAreasWithKindergartens]
+    var colors = ["#C586DD", "#FF8FA3"];
+
+
+    for (let i = 0; i < 2; i++) {
+        new Chart(
+            document.getElementById(chartsId[i]),
+            {
+                type: chartTypeArr[i],
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                        backgroundColor: colors,
+                        data: yValues
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: titles[0],
+                    }
+                }
+            });
+        new Chart(
+            document.getElementById(secondChartsId[i]),
+            {
+                type: chartTypeArr[i],
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                        backgroundColor: colors,
+                        data: yValuesSecond
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: titles[1],
+                    }
+                }
+            });
+    }
+
+    new Chart(
+        document.getElementById(chartsId[2]),
+        {
+            type: chartTypeArr[2],
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: colors,
+                    data: yValues
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        display: true,
+                        ticks: {
+                            beginAtZero: true,
+
+                        }
+                    }]
+                },
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: titles[0]
+                }
+            }
+        });
+
+    new Chart(
+        document.getElementById(secondChartsId[2]),
+        {
+            type: chartTypeArr[2],
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: colors,
+                    data: yValuesSecond
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        display: true,
+                        ticks: {
+                            beginAtZero: true,
+
+                        }
+                    }]
+                },
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: titles[1]
+                }
+            }
+        });
+</script>
+
