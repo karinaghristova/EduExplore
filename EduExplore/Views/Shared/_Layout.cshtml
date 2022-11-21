@@ -22,11 +22,39 @@
                         <li class="nav-item">
                             <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Начало</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="School" asp-action="allschools">Училища</a>
+                        <li id="showByFilter" class="nav-item">
+                            <div class="dropdown show">
+                                <a class="nav-link text-light dropdown-toggle" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" asp-area="" asp-controller="School" asp-action="allschools">Училища</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="@Url.Action("AllSchools", "School")">Всички училища</a>
+                                    <a class="dropdown-item" href="@Url.Action("AllInhabitedAreasSchool", "Institution")">Според населеното място</a>
+                                    <a class="dropdown-item" href="@Url.Action("AllRegionsSchool", "Institution")">Според региона</a>
+                                    <a class="dropdown-item" href="@Url.Action("AllInstitutionTypesSchool", "Institution")">Според вида</a>
+                                    <a class="dropdown-item" href="@Url.Action("AllDetailedInstitutionTypesSchool", "Institution")">Според детайлния вид</a>
+                                    <a class="dropdown-item" href="@Url.Action("AllFinancialTypesSchool", "Institution")">Според финансирането</a>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Kindergarten" asp-action="allkindergartens">Детски градини</a>
+                        <li id="showByFilter" class="nav-item">
+                            <div class="dropdown show">
+                                <a class="nav-link text-light dropdown-toggle" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" asp-area="" asp-controller="Kindergarten" asp-action="allkindergartens">Детски градини</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                    <a class="dropdown-item" href="@Url.Action("AllKindergartens", "Kindergarten")">Всички детски градини</a>
+                                    <a class="dropdown-item" href="@Url.Action("AllInhabitedAreasKindergarten", "Institution")">Според населеното място</a>
+                                    <a class="dropdown-item" href="@Url.Action("AllRegionsKindergartens", "Institution")">Според региона</a>
+                                    <a class="dropdown-item" href="@Url.Action("AllFinancialTypesKindergarten", "Institution")">Според финансирането</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li id="dataVisNavMenu" class="nav-item">
+                            <div class="dropdown show">
+                                <a class="nav-link text-light dropdown-toggle" role="button" id="dropdownMenuOne" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" asp-area="" asp-controller="Statistics" asp-action="allstatistics">Визуализация на данни</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                     <a class="dropdown-item" href="@Url.Action("AllStatistics", "Statistics")">Общо</a>
+                                    <a class="dropdown-item" href="@Url.Action("SchoolStatistics", "Statistics")">За училища</a>
+                                    <a class="dropdown-item" href="@Url.Action("KindergartenStatistics", "Statistics")">За детски градини</a>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -39,11 +67,11 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+@*    <footer class="border-top footer text-muted">
         <div class="container">
             &copy; 2022 - EduExplore - <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
         </div>
-    </footer>
+    </footer>*@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
