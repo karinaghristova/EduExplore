@@ -75,7 +75,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-     <div id="thidCarousel" class="carousel slide" data-ride="carousel">
+    <div id="thidCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="row justify-content-center">
@@ -102,7 +102,7 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-     <div id="fourthCarousel" class="carousel slide" data-ride="carousel">
+    <div id="fourthCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="row justify-content-center">
@@ -183,10 +183,15 @@
     var xValuesFifth = (document.getElementById('financialTypesKindergartens').textContent).split(',');
     var yValuesFifth = (document.getElementById('financialTypesKindergartensCount').textContent).split(',');
 
-    var colors = ["#7400B8", "#8013BD", "#8B26C3", "#9739C8", "#A24CCD",
-        "#AE60D3", "#B973D8", "#C586DD", "#D099E3", "#DCACE8", "#590D22", "#800F2F", "#A4133C", "#C9184A", "#FF4D6D",
-        "#FF758F", "#FF8FA3", "#FFB3C1", "#FFCCD5", "#2B0000", "#4F0000", "#740000", "#980000", "#B50000",
-        "#D30000", "#EB1D1D", "#F50F0F", "#FF0000"];
+    var firstColors = ['#13010c', '#270218', '#3a0324', '#4d0430', '#60063c', '#740748', '#870854', '#9a0960', '#ae0a6c', '#c10b78', '#d40c84', '#e70d90', '#f00e96', '#f32ba3', '#f43eab', '#f551b4', '#f665bc', '#f778c4', '#f88bcd', '#f99fd5', '#fbb2dd']
+
+    var secondColors = ['#100311', '#200623', '#300934', '#400c45', '#500f57', '#5f1268', '#6f1579', '#7f188b', '#8f1c9c', '#9f1fad', '#af22bf', '#bf25d0', '#c92fda', '#ce40dd', '#d252e0', '#d763e3', '#db74e7', '#e086ea', '#e497ed', '#e9a8f0', '#edbaf3', '#f2cbf6', '#f6dcf9', '#fbeefc']
+
+    var thirdColors = ['#806dee', '#371adb', '#2913a4', '#170b5b']
+
+    var fourthColors = ['#0b3f5b', '#0d4c6e', '#0f5880', '#116592', '#1372a4', '#157eb7', '#188bc9', '#1a97db', '#24a2e5', '#3cace8', '#48b1ea', '#5bb9ec', '#6dc1ee']
+
+    var fifthColors = ['#08360f', '#0f6b1d', '#18ab2e']
 
     for (let i = 0; i < 2; i++) {
         new Chart(
@@ -196,7 +201,7 @@
                 data: {
                     labels: xValues,
                     datasets: [{
-                        backgroundColor: colors,
+                        backgroundColor: firstColors,
                         data: yValues
                     }]
                 },
@@ -215,7 +220,7 @@
                 data: {
                     labels: xValuesSecond,
                     datasets: [{
-                        backgroundColor: colors,
+                        backgroundColor: secondColors,
                         data: yValuesSecond
                     }]
                 },
@@ -234,7 +239,7 @@
                 data: {
                     labels: xValuesThird,
                     datasets: [{
-                        backgroundColor: colors,
+                        backgroundColor: thirdColors,
                         data: yValuesThird
                     }]
                 },
@@ -246,14 +251,14 @@
                     }
                 }
             });
-            new Chart(
+        new Chart(
             document.getElementById(fourthChartsId[i]),
             {
                 type: chartTypeArr[i],
                 data: {
                     labels: xValuesFourth,
                     datasets: [{
-                        backgroundColor: colors,
+                        backgroundColor: fourthColors,
                         data: yValuesFourth
                     }]
                 },
@@ -265,14 +270,14 @@
                     }
                 }
             });
-            new Chart(
+        new Chart(
             document.getElementById(fifthChartsId[i]),
             {
                 type: chartTypeArr[i],
                 data: {
                     labels: xValuesFifth,
                     datasets: [{
-                        backgroundColor: colors,
+                        backgroundColor: fifthColors,
                         data: yValuesFifth
                     }]
                 },
@@ -294,7 +299,7 @@
             data: {
                 labels: xValues,
                 datasets: [{
-                    backgroundColor: colors,
+                    backgroundColor: firstColors,
                     data: yValues
                 }]
             },
@@ -324,7 +329,7 @@
             data: {
                 labels: xValues,
                 datasets: [{
-                    backgroundColor: colors,
+                    backgroundColor: secondColors,
                     data: yValuesSecond
                 }]
             },
@@ -353,7 +358,7 @@
             data: {
                 labels: xValuesThird,
                 datasets: [{
-                    backgroundColor: colors,
+                    backgroundColor: thirdColors,
                     data: yValuesThird
                 }]
             },
@@ -375,14 +380,14 @@
                 }
             }
         });
-           new Chart(
+    new Chart(
         document.getElementById(fourthChartsId[2]),
         {
             type: chartTypeArr[2],
             data: {
                 labels: xValuesFourth,
                 datasets: [{
-                    backgroundColor: colors,
+                    backgroundColor: fourthColors,
                     data: yValuesFourth
                 }]
             },
@@ -404,14 +409,14 @@
                 }
             }
         });
-           new Chart(
+    new Chart(
         document.getElementById(fifthChartsId[2]),
         {
             type: chartTypeArr[2],
             data: {
                 labels: xValuesFifth,
                 datasets: [{
-                    backgroundColor: colors,
+                    backgroundColor: fifthColors,
                     data: yValuesFifth
                 }]
             },
