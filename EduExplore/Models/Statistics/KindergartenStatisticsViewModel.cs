@@ -4,6 +4,7 @@
     {
         public int AllKindergartensCount { get; set; }
         public int KindergartensCountInSofiaCity { get; set; }
+        public int KindergartensCountOutsideSofiaCity => AllKindergartensCount - KindergartensCountInSofiaCity;
         public List<string> InhabitedAreasNames { get; set; }
         public List<int> KindergartensCountInInhabitedAreasList { get; set; }
         public List<string> RegionsNames { get; set; }

@@ -21,6 +21,8 @@
 <p id="financialTypesKindergartensCount" style="display: none;">@string.Join(",", Model.SchoolsCountOfFinancialTypesList.ToList())</p>
 
 <div class="justify-content-center">
+    <h2 class="text-pink text-center">Общ брой училища в област София: @Model.AllSchoolsCount</h2>
+    <h3 class="text-pink text-center">@Model.SchoolsCountInSofiaCity в град София и @Model.SchoolsCountOutsideSofiaCity в останалите населени места</h3>
     <div id="firstCarousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
