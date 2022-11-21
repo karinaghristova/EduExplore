@@ -14,6 +14,7 @@ namespace Microsoft.Extensions.DependencyInjection
             services.AddScoped<ISchoolService, SchoolService>();
             services.AddScoped<IKindergartenService, KindergartenService>();
             services.AddScoped<IInstitutionService, InstitutionService>();
+            services.AddScoped<IStatisticsService, StatisticsService>();
 
             return services;
         }
