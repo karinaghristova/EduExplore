@@ -1,0 +1,437 @@
+﻿<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+@using EduExplore.Models.Statistics
+@using System.Collections.Generic
+@model SchoolStatisticsViewModel
+
+<p id="inhabitedAreasSchools" style="display: none;">@string.Join(",", Model.InhabitedAreasNames.ToList())</p>
+<p id="inhabitedAreasSchoolsCount" style="display: none;">@string.Join(",", Model.SchoolsCountInInhabitedAreasList.ToList())</p>
+<p id="regionsSchools" style="display: none;">@string.Join(",", Model.RegionsNames.ToList())</p>
+<p id="regionsSchoolsCount" style="display: none;">@string.Join(",", Model.SchoolsCountInRegionsList.ToList())</p>
+<p id="institutionalTypesSchools" style="display: none;">@string.Join(",", Model.InstitutionTypesNames.ToList())</p>
+<p id="institutionalTypesSchoolsCount" style="display: none;">@string.Join(",", Model.SchoolsCountOfInstitutionTypesList.ToList())</p>
+<p id="detailedinstitutionalTypesSchools" style="display: none;">@string.Join(",", Model.DetailedInstitutionTypesNames.ToList())</p>
+<p id="detailedinstitutionalTypesSchoolsCount" style="display: none;">@string.Join(",", Model.SchoolsCountOfDetailedInstitutionTypesList.ToList())</p>
+<p id="financialTypesKindergartens" style="display: none;">@string.Join(",", Model.FinancialTypesNames.ToList())</p>
+<p id="financialTypesKindergartensCount" style="display: none;">@string.Join(",", Model.SchoolsCountOfFinancialTypesList.ToList())</p>
+
+<div class="justify-content-center">
+    <div id="firstCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsInInhabitedAreasFirstChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsInInhabitedAreasSecondChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsInInhabitedAreasThirdChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#firstCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#firstCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="secondCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsInRegionsFirstChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsInRegionsSecondChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsInRegionsThirdChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#secondCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#secondCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+     <div id="thidCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsOfInstitutionalTypeFirstChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsOfInstitutionalTypeSecondChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsOfInstitutionalTypeThirdChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#thidCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#thidCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+     <div id="fourthCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsOfDetailedInstitutionalTypeFirstChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsOfDetailedInstitutionalTypeSecondChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsOfDetailedInstitutionalTypeThirdChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#fourthCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#fourthCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <div id="fifthCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsOfFinancialTypeFirstChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsOfFinancialTypeSecondChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row justify-content-center">
+                    <canvas id="schoolsOfFinancialTypeThirdChart" style="width:100%;max-width:800px"></canvas>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#fifthCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#fifthCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<script>
+    var chartTypeArr = ['pie', 'doughnut', 'bar']
+    var chartsId = ['schoolsInInhabitedAreasFirstChart', 'schoolsInInhabitedAreasSecondChart', 'schoolsInInhabitedAreasThirdChart']
+    var secondChartsId = ['schoolsInRegionsFirstChart', 'schoolsInRegionsSecondChart', 'schoolsInRegionsThirdChart']
+    var thirdChartsId = ['schoolsOfInstitutionalTypeFirstChart', 'schoolsOfInstitutionalTypeSecondChart', 'schoolsOfInstitutionalTypeThirdChart']
+    var fourthChartsId = ['schoolsOfDetailedInstitutionalTypeFirstChart', 'schoolsOfDetailedInstitutionalTypeSecondChart', 'schoolsOfDetailedInstitutionalTypeThirdChart']
+    var fifthChartsId = ['schoolsOfFinancialTypeFirstChart', 'schoolsOfFinancialTypeSecondChart', 'schoolsOfFinancialTypeThirdChart']
+
+    var titles = ['Училища според населеното място', 'Училища според региона', 'Училища според вида', 'Училища според детайлния вид', 'Училища според вида на финансиране']
+
+    var xValues = (document.getElementById('inhabitedAreasSchools').textContent).split(',');
+    var yValues = (document.getElementById('inhabitedAreasSchoolsCount').textContent).split(',');
+
+    var xValuesSecond = (document.getElementById('regionsSchools').textContent).split(',');
+    var yValuesSecond = (document.getElementById('regionsSchoolsCount').textContent).split(',');
+
+    var xValuesThird = (document.getElementById('institutionalTypesSchools').textContent).split(',');
+    var yValuesThird = (document.getElementById('institutionalTypesSchoolsCount').textContent).split(',');
+
+    var xValuesFourth = (document.getElementById('detailedinstitutionalTypesSchools').textContent).split(',');
+    var yValuesFourth = (document.getElementById('detailedinstitutionalTypesSchoolsCount').textContent).split(',');
+
+    var xValuesFifth = (document.getElementById('financialTypesKindergartens').textContent).split(',');
+    var yValuesFifth = (document.getElementById('financialTypesKindergartensCount').textContent).split(',');
+
+    var colors = ["#7400B8", "#8013BD", "#8B26C3", "#9739C8", "#A24CCD",
+        "#AE60D3", "#B973D8", "#C586DD", "#D099E3", "#DCACE8", "#590D22", "#800F2F", "#A4133C", "#C9184A", "#FF4D6D",
+        "#FF758F", "#FF8FA3", "#FFB3C1", "#FFCCD5", "#2B0000", "#4F0000", "#740000", "#980000", "#B50000",
+        "#D30000", "#EB1D1D", "#F50F0F", "#FF0000"];
+
+    for (let i = 0; i < 2; i++) {
+        new Chart(
+            document.getElementById(chartsId[i]),
+            {
+                type: chartTypeArr[i],
+                data: {
+                    labels: xValues,
+                    datasets: [{
+                        backgroundColor: colors,
+                        data: yValues
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: titles[0],
+                    }
+                }
+            });
+        new Chart(
+            document.getElementById(secondChartsId[i]),
+            {
+                type: chartTypeArr[i],
+                data: {
+                    labels: xValuesSecond,
+                    datasets: [{
+                        backgroundColor: colors,
+                        data: yValuesSecond
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: titles[1],
+                    }
+                }
+            });
+        new Chart(
+            document.getElementById(thirdChartsId[i]),
+            {
+                type: chartTypeArr[i],
+                data: {
+                    labels: xValuesThird,
+                    datasets: [{
+                        backgroundColor: colors,
+                        data: yValuesThird
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: titles[2],
+                    }
+                }
+            });
+            new Chart(
+            document.getElementById(fourthChartsId[i]),
+            {
+                type: chartTypeArr[i],
+                data: {
+                    labels: xValuesFourth,
+                    datasets: [{
+                        backgroundColor: colors,
+                        data: yValuesFourth
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: titles[3],
+                    }
+                }
+            });
+            new Chart(
+            document.getElementById(fifthChartsId[i]),
+            {
+                type: chartTypeArr[i],
+                data: {
+                    labels: xValuesFifth,
+                    datasets: [{
+                        backgroundColor: colors,
+                        data: yValuesFifth
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    title: {
+                        display: true,
+                        text: titles[4],
+                    }
+                }
+            });
+
+    }
+
+    new Chart(
+        document.getElementById(chartsId[2]),
+        {
+            type: chartTypeArr[2],
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: colors,
+                    data: yValues
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        display: true,
+                        ticks: {
+                            beginAtZero: true,
+
+                        }
+                    }]
+                },
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: titles[0]
+                }
+            }
+        });
+
+    new Chart(
+        document.getElementById(secondChartsId[2]),
+        {
+            type: chartTypeArr[2],
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: colors,
+                    data: yValuesSecond
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        display: true,
+                        ticks: {
+                            beginAtZero: true,
+
+                        }
+                    }]
+                },
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: titles[1]
+                }
+            }
+        });
+    new Chart(
+        document.getElementById(thirdChartsId[2]),
+        {
+            type: chartTypeArr[2],
+            data: {
+                labels: xValuesThird,
+                datasets: [{
+                    backgroundColor: colors,
+                    data: yValuesThird
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        display: true,
+                        ticks: {
+                            beginAtZero: true,
+
+                        }
+                    }]
+                },
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: titles[2]
+                }
+            }
+        });
+           new Chart(
+        document.getElementById(fourthChartsId[2]),
+        {
+            type: chartTypeArr[2],
+            data: {
+                labels: xValuesFourth,
+                datasets: [{
+                    backgroundColor: colors,
+                    data: yValuesFourth
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        display: true,
+                        ticks: {
+                            beginAtZero: true,
+
+                        }
+                    }]
+                },
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: titles[3]
+                }
+            }
+        });
+           new Chart(
+        document.getElementById(fifthChartsId[2]),
+        {
+            type: chartTypeArr[2],
+            data: {
+                labels: xValuesFifth,
+                datasets: [{
+                    backgroundColor: colors,
+                    data: yValuesFifth
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    yAxes: [{
+                        display: true,
+                        ticks: {
+                            beginAtZero: true,
+
+                        }
+                    }]
+                },
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: titles[4]
+                }
+            }
+        });
+</script>
+
