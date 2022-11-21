@@ -9,7 +9,7 @@ I chose to make a small web application about schools and kindergartens in Sofia
 • Count and list of schools according to he institution type  
 • Count and list of schools according to the detailed institution type  
 • Count and list of schools and kindergartens according to the the financing type they have  
-#Technologies used for the project
+# Technologies used for the project
 • ASP.NET Core MVC  
 • Bootstrap  
 • Chart.js  
