@@ -208,10 +208,28 @@
                     }]
                 },
                 options: {
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        onclick: function(e, legendItem, legend) {
+                            const index = legendItem.datasetIndex;
+                            const ci = legend.chart;
+                            if (ci.isDatasetVisible(index)) {
+                                ci.hide(index);
+                                legendItem.hidden = true;
+                            } else {
+                                ci.show(index);
+                                legendItem.hidden = false;
+                            }
+                        }
+                    },
                     responsive: true,
                     title: {
                         display: true,
                         text: titles[0],
+                    },
+                    onResize: function(myChart, size) {
+                        myChart.options.legend.display = (size.width >= 650);
                     }
                 }
             });
@@ -227,10 +245,28 @@
                     }]
                 },
                 options: {
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        onclick: function(e, legendItem, legend) {
+                            const index = legendItem.datasetIndex;
+                            const ci = legend.chart;
+                            if (ci.isDatasetVisible(index)) {
+                                ci.hide(index);
+                                legendItem.hidden = true;
+                            } else {
+                                ci.show(index);
+                                legendItem.hidden = false;
+                            }
+                        }
+                    },
                     responsive: true,
                     title: {
                         display: true,
                         text: titles[1],
+                    },
+                    onResize: function(myChart, size) {
+                        myChart.options.legend.display = (size.width >= 650);
                     }
                 }
             });
@@ -246,10 +282,28 @@
                     }]
                 },
                 options: {
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        onclick: function(e, legendItem, legend) {
+                            const index = legendItem.datasetIndex;
+                            const ci = legend.chart;
+                            if (ci.isDatasetVisible(index)) {
+                                ci.hide(index);
+                                legendItem.hidden = true;
+                            } else {
+                                ci.show(index);
+                                legendItem.hidden = false;
+                            }
+                        }
+                    },
                     responsive: true,
                     title: {
                         display: true,
                         text: titles[2],
+                    },
+                    onResize: function(myChart, size) {
+                        myChart.options.legend.display = (size.width >= 650);
                     }
                 }
             });
@@ -265,10 +319,28 @@
                     }]
                 },
                 options: {
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        onclick: function(e, legendItem, legend) {
+                            const index = legendItem.datasetIndex;
+                            const ci = legend.chart;
+                            if (ci.isDatasetVisible(index)) {
+                                ci.hide(index);
+                                legendItem.hidden = true;
+                            } else {
+                                ci.show(index);
+                                legendItem.hidden = false;
+                            }
+                        }
+                    },
                     responsive: true,
                     title: {
                         display: true,
                         text: titles[3],
+                    },
+                    onResize: function(myChart, size) {
+                        myChart.options.legend.display = (size.width >= 650);
                     }
                 }
             });
@@ -284,10 +356,28 @@
                     }]
                 },
                 options: {
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        onclick: function(e, legendItem, legend) {
+                            const index = legendItem.datasetIndex;
+                            const ci = legend.chart;
+                            if (ci.isDatasetVisible(index)) {
+                                ci.hide(index);
+                                legendItem.hidden = true;
+                            } else {
+                                ci.show(index);
+                                legendItem.hidden = false;
+                            }
+                        }
+                    },
                     responsive: true,
                     title: {
                         display: true,
                         text: titles[4],
+                    },
+                    onResize: function(myChart, size) {
+                        myChart.options.legend.display = (size.width >= 650);
                     }
                 }
             });
